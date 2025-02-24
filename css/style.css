@@ -20,6 +20,21 @@
     display: flex;
 }
 
+.text-white{
+    color: white;
+}
+
+.btn{
+    padding: 10px 13px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    border-radius: 20px;
+}
+
 
 /* header */
 
@@ -56,17 +71,39 @@ img{
 
 /* header main */
 
-.color-blue{
-    background-color: blue;
-    height: 300px;
+.header-main{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align:center;
+    background-position: center;
+    height: 400px;
 }
 
-.color-fucsia{
-    background-color: fuchsia;
-    width: 900px;
+.content-header{
     margin: 30px auto;
     align-items: center;
+    width: 900px;
 }
+
+h1{
+    padding: 50px;
+}
+
+.p-heading{
+    padding: 0px 40px 20px;
+    line-height: 28px;
+}
+
+.btn-apri{
+    background-color: rgb(47, 47, 47);
+}
+
+.btn-scarica{
+    margin-right: 20px;
+}
+
+
 
 
 
