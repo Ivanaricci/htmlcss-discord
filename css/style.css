@@ -8,6 +8,10 @@
     background-color: lightgrey;
 }
 
+.bg-mediumslateblue{
+    background-color: mediumslateblue;
+}
+
 .container{
     display: flex;
     max-width: 1080px;
@@ -40,13 +44,10 @@
     font-size: 16px;
     cursor: pointer;
     border: none;
-    background-color: white;
     border-radius: 20px;
 }
 
-.margin-30y{
-    margin: 30px 0px;
-}
+
 
 
 /* header */
@@ -114,6 +115,7 @@ h1{
 
 .btn-scarica{
     margin-right: 20px;
+    background-color: white;
 }
 
 
@@ -143,17 +145,25 @@ h2{
 
 
 
-.color-lightlightgrey{
-    background-color: rgb(224, 224, 224);
-}
-
-.color-green{
-    background-color: green;
+.item4{
     flex-grow: 1;
     margin: 30px auto;
     align-items: center;
     height: 500px;
 }
+
+.last-text{
+    text-align: center;
+}
+
+.btn-last{
+    display: block;
+    margin: 30px auto 100px;
+    width: 167px;
+    color: white;
+}
+
+
 
 
 
