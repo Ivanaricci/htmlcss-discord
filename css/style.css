@@ -24,35 +24,33 @@
 /* header */
 
 header{
-    background-color: rgb(144, 255, 255);
+    background-color: rgb(30, 84, 225);
 }
 
 /* header nav */
 
 nav{
-    height: 50px;
     justify-content: space-between;
     /* background-color: rgb(255, 186, 96); */
     align-items: center;
+    padding: 10px ;
 }
 
-.logo, .menu, .login{
-    background-color: rgb(255, 186, 96);
-    padding: 5px 10px;
-}
 
-.logo, .login{
-    width: 20%;
+img{
+    width: 10%;
 }
 
 .login{
-    text-align: right;
+    text-align: center;
+    padding: 7px;
 }
 
 
 .menu{
     width: 60%;
     text-align: center;
+    color: white;
 }
 
 
