@@ -4,7 +4,9 @@
     box-sizing: border-box;
 }
 
-
+.color-lightgrey{
+    background-color: lightgrey;
+}
 
 .container{
     display: flex;
@@ -120,12 +122,12 @@ h1{
 
 /* main */
 
-.canal-study{
+.canal{
     height: 500px;
     flex-grow: 1;
 }
 
-.server-disco{
+.description{
     flex-basis: 40%;
 }
 
@@ -140,12 +142,9 @@ h2{
 }
 
 
-.color-lightgrey{
-    background-color: lightgrey;
-}
+
 .color-lightlightgrey{
     background-color: rgb(224, 224, 224);
-    /* height: 600px; */
 }
 
 .color-green{
