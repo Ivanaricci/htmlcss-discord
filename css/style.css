@@ -12,6 +12,13 @@
     margin: 0px auto;
 }
 
+.container-main{
+    display: flex;
+    max-width: 1080px;
+    margin: 0px auto;
+    padding: 60px 0px 60px;
+}
+
 .border{
     border: 2px dashed black;
 }
@@ -33,6 +40,10 @@
     border: none;
     background-color: white;
     border-radius: 20px;
+}
+
+.margin-30y{
+    margin: 30px 0px;
 }
 
 
@@ -109,18 +120,25 @@ h1{
 
 /* main */
 
-.color-lightblue{
-    background-color: lightskyblue;
-    height: 400px;
+.canal-study{
+    height: 500px;
     flex-grow: 1;
-    margin: 30px 0px;
 }
 
-.color-pink{
-    background-color: pink;
+.server-disco{
     flex-basis: 40%;
-    margin: 30px 0px;
 }
+
+h2{
+    padding: 67px 40px;
+    font-size: 45px;
+}
+
+.text-main{
+    padding-left: 40px;
+    line-height: 32px;
+}
+
 
 .color-lightgrey{
     background-color: lightgrey;
