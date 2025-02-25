@@ -12,6 +12,14 @@
     background-color: mediumslateblue;
 }
 
+.color-lightblack{
+    background-color: rgb(41, 41, 41)
+}
+
+.text-mediumslateblue{
+    color: mediumslateblue;
+}
+
 .container{
     display: flex;
     max-width: 1080px;
@@ -169,46 +177,43 @@ h2{
 
 /* footer */
 /* prima sezione footer */
-.color-coral{
-    background-color: coral;
-    height: 400px;
+.sezione1{
+    /* height: 400px; */
     flex-basis: 30%;
     margin: 7px 0px 25px;
 }
 
-.content{
+.h3-footer{
+    font-size: 33px;
+    padding: 66px 0px 20px;
+}
+
+
+.p-footer{
+    padding-left: 10px;
+    
+}
+
+.font-size-15px{
+    font-size: 15px;
+}
+
+.sezione2{
     flex-grow: 1;
     margin: 7px 0px 25px;
-    border-top: 2px dashed black;
-    border-right: 2px dashed black;
-    border-bottom: 2px dashed black;
-
 }
 
-.color-aqua{
-    background-color: aqua;
+.title-footer{
+    padding: 74px 0px 20px;
+    font-size: 17px;
+}
+
+.link-footer{
+    padding: 15px 0px;
+}
+
+.section{
     flex-basis: 30%;
-}
-
-.color-lightblack{
-    background-color: rgb(41, 41, 41)
-}
-
-.border-white{
-    border: 2px dotted white;
-}
-
-.blocco1, .blocco4{
-border: 2px dashed white;
-}
-
-.blocco2, .blocco3{
-    border-top: 2px dashed white;
-    border-bottom: 2px dashed white;
-}
-
-.blocco2{
-    border-right: 2px dashed white;
 }
 
 
