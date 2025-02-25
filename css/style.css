@@ -220,8 +220,7 @@ h2{
 /* seconda sezione footer */
 
 
-.color-aquamarine{
-    background-color: aquamarine;
+.footer{
     flex-grow: 1;
     margin: 30px auto;
     align-items: center;
@@ -236,7 +235,6 @@ h2{
 
 
 .logo-footer, .btn-footer{
-    background-color: pink;
     padding: 5px 10px;
     margin: 10px 0px;
 }
