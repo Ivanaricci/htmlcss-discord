@@ -89,7 +89,6 @@ img{
     width: 60%;
     text-align: center;
     color: white;
-    padding: 0px 20px;
 }
 
 
@@ -166,12 +165,22 @@ h2{
     text-align: center;
 }
 
+.h3-main{
+    text-align: center;
+    line-height: 55px;
+    padding-top: 46px;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .btn-last{
     display: block;
     margin: 30px auto 100px;
     width: 167px;
     color: white;
 }
+
 
 
 
